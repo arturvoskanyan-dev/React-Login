@@ -1,0 +1,60 @@
+ .facebook-login {
+    display: flex;
+    max-width: 400px;
+    width: 100%;
+}
+
+.facebook-login > .container {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.login-input {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* .login-input > .warner {
+    border: 1px solid red;
+} */
+.warner {
+    border: 1px solid red;
+}
+
+.login-btn > button {
+    width: 80%;
+    padding: 10px;
+    background-color: #0866ff;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn > button:last-child {
+    width: 50%;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #42b72a;
+}
+
+.login-btn > button:first-child:hover {
+    background-color: #1f75ff;
+}
+
+.login-btn > button:last-child:hover {
+    background-color: #3b9728;
+}

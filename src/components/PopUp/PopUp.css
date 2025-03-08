@@ -1,0 +1,41 @@
+.pop-up {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    /* background: rgba(0, 0, 0, 0.5);  */
+    background-color: #fff;
+}
+
+.pop-up > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title > h3 {
+    font-size: 32px;
+}
+
+.create-account {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pop-up-btn > button {
+    width: 194px;
+    height: 36px;
+    color: #fff;
+    background-color: #00a400;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+

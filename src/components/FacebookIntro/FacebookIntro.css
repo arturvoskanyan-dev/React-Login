@@ -1,0 +1,17 @@
+.facebook-intro {
+    display: flex;
+}
+
+.facebook-intro > .container {
+    max-width: 400px;
+    width: 100%;
+}
+
+.logo > img {
+    width: 320px;
+    height: 106px;
+}
+
+.intro > p {
+    font-size: 25px;
+}
