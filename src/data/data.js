@@ -1,10 +1,24 @@
-const logInData = [
+const signInData = [
     {
-        className: "newEmail",
-        type: "Email",
+        className: "name",
+        type: "text",
+        value: "name",
+        onChange: "setName",
+        placeholder: "First Name"
+    },
+    {
+        className: "lastName",
+        type: "text",
+        value: "lastName",
+        onChange: "setLastName",
+        placeholder: "Last Name"
+    },
+    {
+        className: "email",
+        type: "email",
         value: "email",
         onChange: "setEmail",
-        placeholder: "Email or phone number"
+        placeholder: "Email"
     },
     {
         className: "password",
@@ -12,7 +26,7 @@ const logInData = [
         value: "password",
         onChange: "setPassword",
         placeholder: "Password"
-    }
+    },
 ]
 
-export {logInData}
+export {signInData}
